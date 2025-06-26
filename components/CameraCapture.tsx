@@ -280,9 +280,9 @@ const CameraCapture: React.FC<CameraCaptureProps> = ({ onClose }) => {
   };
 
   const copyToClipboard = async () => {
-    if (translationResult?.prediction) {
+    if (translationResult?.translation) {
       try {
-        await navigator.clipboard.writeText(translationResult.prediction);
+        await navigator.clipboard.writeText(translationResult.translation);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
       } catch (err) {
