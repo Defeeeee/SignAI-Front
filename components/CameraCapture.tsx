@@ -6,7 +6,7 @@ interface CameraCaptureProps {
 }
 
 interface TranslationResult {
-  prediction: string;
+  translation: string;
   confidence?: number;
 }
 

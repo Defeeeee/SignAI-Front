@@ -6,7 +6,7 @@ interface VideoUploadProps {
 }
 
 interface TranslationResult {
-  prediction: string;
+  translation: string;
   confidence?: number;
 }
 
