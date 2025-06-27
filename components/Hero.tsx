@@ -43,7 +43,7 @@ const Hero: React.FC<HeroProps> = ({ openTrySignAI }) => {
             Try The Demo
             <Camera className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </button>
-          <Link href="https://github.com/signai" target="_blank" rel="noopener noreferrer" className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-orange-900 transition-all duration-300 flex items-center justify-center">
+          <Link href="https://github.com/Defeeeee/SignAI-SFS" target="_blank" rel="noopener noreferrer" className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-orange-900 transition-all duration-300 flex items-center justify-center">
             View Source Code
             <Code className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </Link>
